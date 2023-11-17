@@ -70,7 +70,7 @@ app.post('/contact', async (req, res) =>{ // post request
 
 
 app.get('/', (req, res) => {
-  res.render('index') // render the index.ejs
+  res.render('index') 
 })
 
 
